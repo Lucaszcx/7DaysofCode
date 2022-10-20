@@ -28,3 +28,5 @@ if (COMPARAR O numeroDez e a stringDez) {
   console.log('As variáveis numeroDez e stringDez não tem o mesmo valor')
 }
 ```
+<h1>Desafio dia 2</h1>
+O segundo desafio é desenvolver um código que armazena dados do usuário, como nome e idade, e no final os dados do usuário apareçam na página.

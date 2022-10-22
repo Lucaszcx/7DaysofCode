@@ -1,20 +1,29 @@
-var textoInicial = document.write(
-        "<h1>Jogo do destino</h1>" + 
-            "<p>Responda as perguntas e escolha seu destino</p>" +
-                "<br><br>"
-)
+const area = prompt("Você quer seguir para área de 'Front-End' ou de 'Back-End'? Digite o nome da área:");
+let linguagem = "";
+if (area === "Front-End"){
+    linguagem = prompt("Você quer aprender React ou Vue?");
+}
+else if (area === "Back-End"){
+    linguagem = prompt("Você quer aprender C# ou Java?");
+}
+else {
+    alert("Você não inseriu uma área válida!");
+}
 
-var pergunta1 = prompt ("Para qual área da programação você quer seguir? Escolha (1) Para Front-End ou (2) Para Back-End")
+const especialidadeOuFullstack = prompt("Digite 1 para seguir se especializando na área escolhida ou 2 para seguir se desenvolvendo para se tornar Fullstack");
+if (especialidadeOuFullstack == 1){
+    alert(`Continue se especializando em ${linguagem} para dominar a área de ${area}!`);
+}
+else if (especialidadeOuFullstack == 2){
+    alert(`Chegou a hora de começar a aprender outras linguagens além de ${linguagem} se você quer se tornar Fullstack!`);
+}
+else {
+    alert("Você não inseriu um valor válido!");
+}
 
-if(pergunta1 == 1){
-    var pergunta2 = prompt ("Você quer aprender (3) React ou aprender (4) Vue?");
-    var pergunta3 = prompt ("quais são as tecnologias nas quais você gostaria de se especializar ou de conhecer?")
-    document.write ("Parabéns continue estudando e lendo artigos sobre essa tecnologia do Front-End e vc tera muito sucesso!")
-
-} else if (pergunta1 == 2){
-    var pergunta2 = prompt ("Você quer aprender (3) C# ou aprender (4) Java?");
-    var pergunta3 = prompt ("quais são as tecnologias nas quais você gostaria de se especializar ou de conhecer?")
-    document.write ("Parabéns continue estudando e lendo artigos sobre essa tecnologia do Back-End e vc tera muito sucesso!")
-} else {
-    alert("Tente digitar um número valido");
+let msg = prompt("Tem mais alguma tecnologia que você gostaria de aprender? Digite 'ok' em caso positivo.");
+while (msg === "ok"){
+    let novaTecnologia = prompt("Qual?");
+    alert(`${novaTecnologia} é realmente uma tecnologia muito legal!`)
+    msg = prompt("Tem mais alguma tecnologia que você gostaria de aprender? Digite 'ok' em caso positivo.");
 }

@@ -31,7 +31,7 @@ if (COMPARAR O numeroDez e a stringDez) {
 <h1>Desafio dia 2</h1>
 O segundo desafio é desenvolver um código que armazena dados do usuário, como nome e idade, e no final os dados do usuário apareçam na página.
 
-</h1>Desafio dia 3</h1>
+<h1>Desafio dia 3</h1>
 O terceiro desafio é desenvolver um programa que simula jogos de escolha, onde cada escolha do usuário interfere nas ações futuras e também nas ações futuras.
 
 <h1>Desafio dia 4</h1>

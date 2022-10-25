@@ -36,3 +36,6 @@ O terceiro desafio é desenvolver um programa que simula jogos de escolha, onde 
 
 <h1>Desafio dia 4</h1>
 O quarto desafio é desenvolver um jogo da advinha, onde o usuário tem que acertar o número pensado pela máquina.
+
+<h1>Desafios dias 5 e 6 </h1>
+O quinto e o sexto desafios se completam e consistem em criar uma lista de compras, onde no dia 5 era apenas adicionar itens, ja no dia 6 era pra adicionar a função de remover itens.

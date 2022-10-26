@@ -1,0 +1,16 @@
+body {
+	font-family: 'Montserrat', sans-serif
+}
+
+body {
+	background-color: lightgray;
+	border: 2px solid #000000;
+    border-radius: 10px;
+    margin-top: 1em;
+	padding: 1em;
+}
+
+.botao__voltar {
+    background: lightgray;
+    margin: auto;
+}

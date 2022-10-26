@@ -39,3 +39,9 @@ O quarto desafio é desenvolver um jogo da advinha, onde o usuário tem que acer
 
 <h1>Desafios dias 5 e 6 </h1>
 O quinto e o sexto desafios se completam e consistem em criar uma lista de compras, onde no dia 5 era apenas adicionar itens, ja no dia 6 era pra adicionar a função de remover itens.
+
+<h1>Desafio dia 7</h1>
+O sétimo e último desafio era criar o sistema de uma calculadora que realiza operações como somar, subtrair, multiplicar e dividir.
+
+<h1>Index</h1>
+O Index é um arquivo html onde estão localizados todos os desafios para acesso de maneira rápida.
